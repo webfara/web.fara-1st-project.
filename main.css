@@ -75,15 +75,28 @@ a {
 }
 
 
-.nav_bar li a:hover,
+/* .nav_bar li a:hover,
 .nav_bar ul li a:active {
     color: #42455a;
     transition: 0.5s ease-out;
     color: sienna;
     transition: 0.5s ease all;
+} */
+
+.nav_bar li {
+    border: 2px solid transparent;
+    border-bottom: 2px solid #fff;
+    margin-right: 0px;
+    padding-right: 30px;
+    transition: border 0.3s ease;
 }
 
-
+.nav_bar li:hover {
+    border-top: 2px solid rgba(0, 0, 0, .3);
+    border-left: 2px solid rgba(0, 0, 0, .3);
+    border-right: 2px solid rgba(0, 0, 0, .3);
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+}
 
 
 ul li {
